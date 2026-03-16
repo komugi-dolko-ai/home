@@ -1842,6 +1842,12 @@ strong { font-weight: 700; color: var(--brown-dark); }
 /* ============================================================
    Reduced Motion
    ============================================================ */
+/* ---------- スマホ専用改行 ---------- */
+.sp-only { display: none; }
+@media (max-width: 767px) {
+  .sp-only { display: inline; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fade-in { opacity: 1; transform: none; transition: none; }
   .sparkle { animation: none; }
