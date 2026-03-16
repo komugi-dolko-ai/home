@@ -87,6 +87,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   padding-bottom: 80px; /* floating-ctaの分 */
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
+}
+
+p, .pr-card__lead, .pr-card__sub-lead, .notice-card__text,
+.exclusive-text, .support-item__desc, .creator-card__bio,
+.creator-card__philosophy, .note-featured-card__desc {
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
 }
 
 img { max-width: 100%; height: auto; display: block; }
