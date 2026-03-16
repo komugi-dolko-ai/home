@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lp-server",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "C:\\Users\\harum\\OneDrive\\デスクトップ\\Obsidian（こむドルの全て）\\LP", "-p", "8080", "-c-1"],
+      "port": 8080
+    }
+  ]
+}
