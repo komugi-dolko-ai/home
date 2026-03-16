@@ -264,6 +264,22 @@ strong { font-weight: 700; color: var(--brown-dark); }
 }
 
 .hero-cta { margin-bottom: var(--sp-sm); }
+.hero-cta-dual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: var(--sp-sm);
+}
+.hero-cta-dual .btn-primary {
+  width: 100%;
+  max-width: 340px;
+}
+.btn-outline--hero {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
 
 /* キラキラ */
 .sparkle {
@@ -1546,6 +1562,131 @@ strong { font-weight: 700; color: var(--brown-dark); }
   font-size: 0.68rem;
   color: var(--brown-light);
   letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   Creator & Story（統合セクション）
+   ============================================================ */
+.creator-card {
+  background: var(--white-glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,217,224,0.35);
+  border-radius: var(--r-lg);
+  padding: var(--sp-lg) var(--sp-md);
+  box-shadow: var(--shadow-md);
+}
+.creator-card__top {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-md);
+}
+.creator-card__top .profile-avatar {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.creator-card__info {
+  text-align: left;
+}
+.creator-card__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--brown-dark);
+  margin-bottom: 2px;
+}
+.creator-card__role {
+  font-size: 0.78rem;
+  color: var(--brown-light);
+}
+.creator-card__bio {
+  font-size: 0.82rem;
+  line-height: 1.9;
+  color: var(--brown-text);
+  margin-bottom: var(--sp-md);
+}
+.creator-card__story {
+  margin-bottom: var(--sp-md);
+  text-align: center;
+}
+.story-image-compact {
+  max-width: 220px;
+  margin: 0 auto var(--sp-sm);
+}
+.story-image-compact img {
+  width: 100%;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+}
+.creator-card__philosophy {
+  font-size: 0.82rem;
+  line-height: 2;
+  color: var(--brown-text);
+  text-align: center;
+}
+.creator-card__tools {
+  margin-bottom: var(--sp-md);
+}
+.creator-card__tools-label {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--pink-accent);
+  text-align: center;
+  margin-bottom: var(--sp-sm);
+}
+.tools-grid--compact {
+  gap: 8px;
+}
+.tools-grid--compact .tool-card {
+  padding: var(--sp-sm) var(--sp-xs);
+}
+.tools-grid--compact .tool-name {
+  font-size: 0.7rem;
+}
+.tools-grid--compact .tool-desc {
+  font-size: 0.6rem;
+}
+.creator-card__sns {
+  text-align: center;
+  margin-bottom: var(--sp-md);
+}
+.creator-card__sns .sns-icons-row {
+  margin-bottom: var(--sp-xs);
+}
+.creator-card__sns-stats {
+  font-size: 0.68rem;
+  color: var(--brown-light);
+  line-height: 1.7;
+}
+.creator-card__community {
+  text-align: center;
+  padding-top: var(--sp-sm);
+  border-top: 1px solid rgba(255,217,224,0.30);
+}
+.creator-card__community-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--brown-dark);
+  margin-bottom: var(--sp-xs);
+}
+.creator-card__community-text {
+  font-size: 0.8rem;
+  color: var(--brown-text);
+  line-height: 1.8;
+  margin-bottom: var(--sp-sm);
+}
+
+/* ── ギャラリーサブタイトル ── */
+.gallery-sub-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--brown-dark);
+  text-align: center;
+  margin-top: var(--sp-xl);
+  margin-bottom: var(--sp-xs);
+  letter-spacing: 0.1em;
 }
 
 /* ============================================================
