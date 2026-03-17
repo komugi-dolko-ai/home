@@ -1846,6 +1846,25 @@ strong { font-weight: 700; color: var(--brown-dark); }
 .sp-only { display: none; }
 @media (max-width: 767px) {
   .sp-only { display: inline; }
+  .ib { display: inline-block; }
+}
+
+/* ---------- 実践パック バナー画像 ---------- */
+.note-featured-card__banner {
+  margin: var(--sp-sm) 0;
+}
+.note-featured-card__banner-img {
+  width: 100%;
+  border-radius: var(--r-sm);
+  box-shadow: var(--shadow-md);
+}
+
+/* ---------- 重要事項 補足テキスト ---------- */
+.notice-card__text--sub {
+  font-size: 0.75rem;
+  color: var(--brown-light);
+  margin-top: 8px;
+  line-height: 1.8;
 }
 
 @media (prefers-reduced-motion: reduce) {
